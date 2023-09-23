@@ -3,6 +3,7 @@ const net = require('net');
 const port = 8080;
 const host = '127.0.0.1';
 //Create an instance of the server
+//2
 const server = net.createServer();
 //Start listening with the server on given port and host.
 server.listen(port,host,function(){
